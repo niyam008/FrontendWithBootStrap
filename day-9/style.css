@@ -1,0 +1,33 @@
+:root {
+    --pink: #e5345b
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+    padding: 25px 73px;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.fa-bag-shopping {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.navbar-brand-title {
+    letter-spacing: 2px;
+}
+
+
+#header {
+    background: url("images/banner-img-1.jpg") top/cover;
+    height: 100vh;
+}
