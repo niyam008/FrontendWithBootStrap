@@ -1,0 +1,13 @@
+.carousel-item {
+    height: 480px;
+}
+
+img {
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* .carousel-control-prev,.carousel-control-next {
+    background: transparent;
+    border: none;
+} */
