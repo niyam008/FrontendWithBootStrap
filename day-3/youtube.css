@@ -1,0 +1,54 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cards-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.yt-card {
+}
+
+.video-image {
+    img {
+        width: 100%;
+
+    }
+}
+
+.video-info-container {
+    display: grid;
+    grid-template-columns: 60px 2fr;
+}
+
+.channel-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.channel-name {
+    font-size: 12px;
+    color: #606060;
+}
+
+.video-stats {
+    font-size: 12px;
+    color: #606060;   
+}
+
+
+@media screen and (max-width:320px) {
+    .cards-container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+}

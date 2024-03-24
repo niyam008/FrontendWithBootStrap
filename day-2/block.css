@@ -1,0 +1,14 @@
+p {
+    background: lightcoral;
+    display: inline;
+}
+
+
+.block-element {
+    display: block;
+    background: lightcoral;
+}
+.inline-element {
+    display: inline;
+    background: lightblue;
+}

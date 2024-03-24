@@ -1,0 +1,26 @@
+.container {
+    background: red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+div {
+    background: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        background: red;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}

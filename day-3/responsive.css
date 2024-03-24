@@ -1,0 +1,36 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    .container {
+        width: 500px;
+        height: 500px;
+        background: blue;
+    }
+
+    .p1 {
+        background: blue;
+        display: inline;
+    }
+    .p2 {
+        background: red;
+    }
+}
+
+
+@media screen and (min-width:400px) {
+    .container {
+        width: 500px;
+        height: 500px;
+        background: pink;
+    }
+}
