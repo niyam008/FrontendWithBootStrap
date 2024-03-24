@@ -1,0 +1,45 @@
+.login-page{
+    height: 100vh;
+    width: 100%;
+    background: #f8f9fd;
+}
+.container{
+    padding: 100px 0px;
+}
+.login-form{
+    background: white;
+    border-radius: 10px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0 , 0.2);
+}
+a, .form-check-label{
+    color: #8d448b;
+}
+.form-group{
+    color: #8d448b;
+}
+button{
+    color: white !important;
+    background-color: #8d448b !important;
+    border: 1px solid;
+}
+.person-icon{
+    background-color: #8d448b;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+}
+.login-title{
+    
+    color: #8d448b;
+}
+input[type='checkbox']{
+    accent-color: #8d448b;
+}
+.form-control{
+    background-color: rgba(0, 0, 0 , 0.05) !important;
+    color: black;
+    box-shadow: none !important;
+    border: 1px solid transparent !important;
+    height: 48px;
+    padding: 0 20px;
+}
